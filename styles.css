@@ -129,17 +129,18 @@ a.view-more {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
-  max-width: 1240px;
+  max-width: 100%;
   margin: 0 auto;
 }
-.gallery .image {
-  padding: 20px;
-  width: 50%;
+.galleryimage {
+  padding: 10px 20px;
+  width: 30%;
 }
 @media (max-width: 600px) {
-  .gallery .image {
+  .galleryimage {
     width: auto;
     padding: 10px 20px;
+    width: 100%;
   }
 }
 
@@ -160,6 +161,7 @@ a.view-more {
   margin: 0 auto 100px;
   padding: 20px;
 }
+
 img {
   float: right;
   margin: 10px 0 20px 20px;
@@ -174,7 +176,6 @@ img {
 
 .footer-text {
   text-align: center;
-  /* color: #868e96; */
   font-weight: bold;
   font-family: "Google Sans Regular";
 }
@@ -182,4 +183,3 @@ img {
 .footer-div {
   margin-top: 2rem;
 }
-

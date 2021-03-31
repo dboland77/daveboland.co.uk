@@ -15,9 +15,8 @@ const About = () => (
       </li>
     </ul>
     <div className="about-text">
-      {/* <Image src="/studio.jpg" alt="studio" width={100} height={100} /> */}
       <p>
-        Hi! <br/>
+        Hi! <br />
         I'm Dave, a happy javascript developer living in the beautiful suburb of
         Carshalton in London with my wife and two kids. I have been building
         websites and web applications for two years and counting - I love it!
@@ -28,13 +27,14 @@ const About = () => (
         <a href="https://www.parkrun.org.uk/banstead/">
           Banstead Woods parkrun.{" "}
         </a>
-        Much as I love running it on my own I am counting the days down
-        to it's return. </p><p>
-        Please have a look around my services and portfolio and
-        reach out if you would like to chat :)
+        Much as I love running it on my own I am counting the days down to it's
+        return.{" "}
+      </p>
+      <p>
+        Please have a look around my services and portfolio and reach out if you
+        would like to chat :)
       </p>
     </div>
-    <style jsx>{``}</style>
   </Layout>
 );
 

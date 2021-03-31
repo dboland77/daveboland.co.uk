@@ -4,14 +4,14 @@ const Gallery = ({ images }) => (
   <div className="gallery">
     {images.map((image, index) => {
       return (
-        <Image
-          className="image"
-          key={image}
-          src={image}
-          alt="Portfolio picture"
-          width={250}
-          height={400}
-        />
+        <div className="galleryimage" key ={image}>
+          <Image
+            src={image}
+            alt="Portfolio picture"
+            width={250}
+            height={400}
+          />
+        </div>
       );
     })}
   </div>
