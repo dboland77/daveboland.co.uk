@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Image from "next/image";
 
 const About = () => (
   <Layout title="About Us">
@@ -10,11 +11,11 @@ const About = () => (
       <li>101 Elm Street</li>
       <li>San Francisco, CA</li>
       <li>
-        <a href="mailto:hi@fi.studio">hi@fi.studio</a>
+        <a href="mailto:dave@daveboland.co.uk">dave@daveboland.co.uk</a>
       </li>
     </ul>
     <div className="about-text">
-      <img src="/static/studio.jpg" />
+      <Image src="/studio.jpg" alt="studio" width={100} height={100} />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut est
         euismod, iaculis ante efficitur, sodales nisl. Nulla non orci vitae nibh

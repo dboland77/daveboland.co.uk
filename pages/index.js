@@ -3,10 +3,10 @@ import Layout from "../components/Layout";
 import Gallery from "../components/Gallery";
 
 const images = [
-  "/static/portfolio/14.jpg",
-  "/static/portfolio/13.jpg",
-  "/static/portfolio/12.jpg",
-  "/static/portfolio/11.jpg",
+  "/portfolio/14.jpg",
+  "/portfolio/13.jpg",
+  "/portfolio/12.jpg",
+  "/portfolio/11.jpg",
 ];
 
 const Homepage = () => (
@@ -33,7 +33,7 @@ const Homepage = () => (
       .cover {
         position: relative;
         min-height: 600px;
-        background: transparent url(/static/cover.jpg) no-repeat center center;
+        background: transparent url(/public/cover.jpg) no-repeat center center;
         background-size: cover;
       }
       .hello {

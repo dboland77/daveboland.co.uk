@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Image from "next/image";
 
 const Services = () => (
   <Layout title="Our Services">
@@ -6,7 +7,7 @@ const Services = () => (
     <div className="services">
       <div className="services-list">
         <div className="item">
-          <img src="/static/services/weddings.jpg" />
+          <Image src="/services/weddings.jpg" alt = "Weddings" width={200} height={200}/>
           <h2>Weddings</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -14,7 +15,7 @@ const Services = () => (
           </p>
         </div>
         <div className="item">
-          <img src="/static/services/portraits.jpg" />
+          <Image src="/services/portraits.jpg" alt="Portraits" width={200} height={200}/>
           <h2>Portraits</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -22,7 +23,7 @@ const Services = () => (
           </p>
         </div>
         <div className="item">
-          <img src="/static/services/real-estate.jpg" />
+          <img src="/services/real-estate.jpg" alt = "Real-Estate"/>
           <h2>Real Estate</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -30,7 +31,7 @@ const Services = () => (
           </p>
         </div>
         <div className="item">
-          <img src="/static/services/travel.jpg" />
+          <Image src="/services/travel.jpg"  alt = "Travel" width={200} height={200}/>
           <h2>Travel</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque

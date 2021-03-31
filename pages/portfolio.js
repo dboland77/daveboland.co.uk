@@ -6,7 +6,7 @@ const Portfolio = () => {
   const imageCount = 14;
 
   for (let i = imageCount; i > 0; i--) {
-    images.push(`/public/portfolio/${i}.jpg`);
+    images.push(`/portfolio/${i}.jpg`);
   }
 
   return (

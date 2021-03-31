@@ -1,10 +1,17 @@
+import Image from "next/image";
 const Gallery = ({ images }) => (
   <div className="gallery">
     {images.map((image) => {
+      console.log(image);
       return (
-        <div className="image" key={image}>
-          <img src={image} />
-        </div>
+        <Image
+          className="image"
+          key={image}
+          src={image}
+          alt="Portfolio picture"
+          width={100}
+          height={100}
+        />
       );
     })}
 

@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMzk0NjA5MDA=",
+      "name": "ToDoList",
+      "createdAt": "2021-02-16T16:31:59Z",
+      "url": "https://github.com/dboland77/ToDoList",
+      "description": "To Do List application using Redux for state management. Allows for multiple ways of filtering the list and tracks active items. The app generates some initial fake data using mirage.js and faker.js. To Do items can be added - storage is not persistent.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMTk5OTQ5MzA=",
+      "name": "Phoneword_Frontend",
+      "createdAt": "2020-12-09T15:14:55Z",
+      "url": "https://github.com/dboland77/Phoneword_Frontend",
+      "description": "Old Nokia style T9 phone text emulator. Written with React + Redux and styled with CSS.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMDczMzgxOTk=",
+      "name": "forum-post-analysis",
+      "createdAt": "2020-10-26T10:37:57Z",
+      "url": "https://github.com/dboland77/forum-post-analysis",
+      "description": "The app displays results from a machine learning topic analysis of forum posts. Results are fetched using an Apollo client and GraphQL. VisX (d3) is used for displaying the chart in React.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMDQyNzQ2ODM=",
+      "name": "weather-app",
+      "createdAt": "2020-10-15T09:25:40Z",
+      "url": "https://github.com/dboland77/weather-app",
+      "description": "A React weather application with iOS styling. The app fetches the London weather from the Open Weather API and refreshes every minute. A progress bar counts down the time to reload when the weather component animates (keyframes).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTI2MTU2ODk=",
+      "name": "eCommerce_Site",
+      "createdAt": "2020-09-03T15:56:32Z",
+      "url": "https://github.com/dboland77/eCommerce_Site",
+      "description": "This is a mock e-commerce site built with React. Users can select and purchase various mobile phones. These are fed to the front-end as JSON and context management stores the state for checkout. Payment is provided through a Paypal sandbox.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzNDM0OTMxNDg=",
+      "name": "star-wars-app",
+      "createdAt": "2021-03-01T17:03:27Z",
+      "url": "https://github.com/dboland77/star-wars-app",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    }
+  ]
+}
