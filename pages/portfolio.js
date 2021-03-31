@@ -3,10 +3,11 @@ import Gallery from "../components/Gallery";
 
 const Portfolio = () => {
   const images = [];
-  const imageCount = 14;
+  const imageCount = 6;
 
   for (let i = imageCount; i > 0; i--) {
-    images.push(`/portfolio/${i}.jpg`);
+    images.push(`/portfolio/${i}.png`);
+  
   }
 
   return (

@@ -3,20 +3,20 @@ import Layout from "../components/Layout";
 import Gallery from "../components/Gallery";
 
 const images = [
-  "/portfolio/14.jpg",
-  "/portfolio/13.jpg",
-  "/portfolio/12.jpg",
-  "/portfolio/11.jpg",
+  "/portfolio/1.png",
+  "/portfolio/2.png",
+  "/portfolio/3.png",
+  "/portfolio/4.png",
 ];
 
 const Homepage = () => (
   <Layout>
     <div className="cover">
       <div className="hello">
-        <h1>Hi, we're Fi</h1>
-        <div>A fictional photography studio</div>
+        <h1>Hi, I'm Dave</h1>
+        <div>I'm a Javascript developer and data scientist. Welcome to my site. </div>
         <Link href="/services">
-          <a className="view-more">What we do</a>
+          <a className="view-more">What I do</a>
         </Link>
       </div>
     </div>
@@ -29,44 +29,7 @@ const Homepage = () => (
         </Link>
       </div>
     </div>
-    <style jsx>{`
-      .cover {
-        position: relative;
-        min-height: 600px;
-        background: transparent url(/public/cover.jpg) no-repeat center center;
-        background-size: cover;
-      }
-      .hello {
-        position: absolute;
-        top: 60px;
-        left: 60px;
-        background: #fff;
-        padding: 30px;
-      }
-      .hello h1 {
-        margin: 0 0 10px 0;
-      }
-      a.view-more {
-        text-transform: uppercase;
-        font-size: 16px;
-      }
-      .latest-work {
-        text-align: center;
-        padding: 30px 0;
-        margin-bottom: 60px;
-      }
-      @media (max-width: 480px) {
-        .hello {
-          left: 30px;
-          right: 30px;
-          font-size: 18px;
-          padding: 20px;
-        }
-        h1 {
-          font-size: 28px;
-        }
-      }
-    `}</style>
+  
   </Layout>
 );
 

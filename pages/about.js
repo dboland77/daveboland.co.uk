@@ -2,70 +2,39 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 
 const About = () => (
-  <Layout title="About Us">
-    <h1>About Us</h1>
+  <Layout title="About Me">
+    <h1>About Me</h1>
     <ul className="company-info">
       <li>
-        <span className="company">Fi Studio Inc</span>
+        <span className="company"></span>
       </li>
-      <li>101 Elm Street</li>
-      <li>San Francisco, CA</li>
+      <li>3 Oaks Way</li>
+      <li>Carshalton, SM5 4NQ</li>
       <li>
         <a href="mailto:dave@daveboland.co.uk">dave@daveboland.co.uk</a>
       </li>
     </ul>
     <div className="about-text">
-      <Image src="/studio.jpg" alt="studio" width={100} height={100} />
+      {/* <Image src="/studio.jpg" alt="studio" width={100} height={100} /> */}
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut est
-        euismod, iaculis ante efficitur, sodales nisl. Nulla non orci vitae nibh
-        ullamcorper finibus. Morbi a nisl tempor, sodales ex quis, aliquet
-        neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Hi! <br/>
+        I'm Dave, a happy javascript developer living in the beautiful suburb of
+        Carshalton in London with my wife and two kids. I have been building
+        websites and web applications for two years and counting - I love it!
       </p>
       <p>
-        Praesent gravida a diam ut faucibus. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Sed sed nibh
-        a ipsum sagittis finibus ac in magna. Curabitur id mauris quis nulla
-        commodo tristique.
-      </p>
-      <p>
-        Nunc eu mi et justo sodales vehicula. Vestibulum velit erat, tincidunt
-        sed tortor id, viverra egestas felis. Cras in ullamcorper ex. Etiam diam
-        lacus, interdum sed rhoncus vel, ultricies ut nisi. Nam ut orci at ante
-        auctor mollis. Phasellus eget augue ac nibh vestibulum pellentesque.
-        Nulla enim augue, placerat id malesuada at, maximus sed tortor.
+        I'm a keen runner and pre-COVID could be found knocking about on a
+        Saturday morning at the spectacular{" "}
+        <a href="https://www.parkrun.org.uk/banstead/">
+          Banstead Woods parkrun.{" "}
+        </a>
+        Much as I love running it on my own I am counting the days down
+        to it's return. </p><p>
+        Please have a look around my services and portfolio and
+        reach out if you would like to chat :)
       </p>
     </div>
-    <style jsx>{`
-      .company-info {
-        margin: 0 0 100px 0;
-        padding: 0;
-        list-style: none;
-        font-size: 18px;
-      }
-      .company {
-        font-weight: 700;
-        font-size: 24px;
-      }
-      .about-text {
-        color: #777;
-        text-align: left;
-        max-width: 800px;
-        margin: 0 auto 100px;
-        padding: 20px;
-      }
-      img {
-        float: right;
-        margin: 10px 0 20px 20px;
-      }
-      @media (max-width: 600px) {
-        .about-text img {
-          float: none;
-          display: block;
-          margin: 0 auto 30px;
-        }
-      }
-    `}</style>
+    <style jsx>{``}</style>
   </Layout>
 );
 

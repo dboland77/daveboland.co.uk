@@ -1,5 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./logo.module.css"
+
+const width = 100;
+const height = 100;
 
 const Logo = () => (
   <div className="logo">
@@ -9,23 +13,11 @@ const Logo = () => (
           className="logo"
           src="/dave2.png"
           alt="Logo"
-          width={100}
-          height={100}
+          width={width}
+          height={height}
         />
       </a>
     </Link>
-
-    <style jsx>{`
-      .logo {
-        display: block;
-        width: 120px;
-      }
-      @media (max-width: 600px) {
-        .logo {
-          display: inline-block;
-        }
-      }
-    `}</style>
   </div>
 );
 

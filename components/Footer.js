@@ -1,17 +1,28 @@
-const Footer = () => (
-  <div className="footer-wrapper">
-    <div className="copyright">© {new Date().getFullYear()} Fi Studio.</div>
-    <style jsx>{`
-      .footer-wrapper {
-        text-align: center;
-        margin-top: 80px;
-        padding: 80px 30px;
-      }
-      .copyright {
-        margin-bottom: 20px;
-      }
-    `}</style>
-  </div>
-);
+import React from "react";
+
+{/* <div className="footer-wrapper"> */}
+const Footer = () => {
+  return (
+    <div className="footer-div">
+        <p className="footer-text">
+          Made with{" "}
+          <span role="img" aria-label="Heart emoji">
+            ❤️
+          </span>
+          <span>
+            {" "}
+            in
+            <a
+              href="https://goo.gl/maps/nNzU5h3tr92AhtU69"
+              style={{ textDecoration: "none" }}
+            >
+              &nbsp; Carshalton{" "}
+            </a>
+            by Dave B.
+          </span>
+        </p>
+    </div>
+  );
+};
 
 export default Footer;
