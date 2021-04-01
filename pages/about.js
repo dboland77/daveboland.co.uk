@@ -11,7 +11,7 @@ const About = () => (
       <li>3 Oaks Way</li>
       <li>Carshalton, SM5 4NQ</li>
       <li>
-        <a href="mailto:dave@daveboland.co.uk">dave-boland@outlook.com</a>
+        <a href="mailto:dave-boland@outlook.com">dave-boland@outlook.com</a>
       </li>
     </ul>
     <div className="about-text">
