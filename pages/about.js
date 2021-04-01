@@ -17,7 +17,7 @@ const About = () => (
     <div className="about-text">
       <p>
         Hi! <br />
-        I'm Dave, a happy javascript developer living in the beautiful suburb of
+        I'm Dave, a happy web developer living in the beautiful suburb of
         Carshalton in London with my wife and two kids. I have been building
         websites and web applications for two years and counting - I love it!
       </p>

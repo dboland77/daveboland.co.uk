@@ -5,10 +5,11 @@ const Footer = () => {
   return (
     <div className="footer-div">
         <p className="footer-text">
-          Made with{" "}
+          Built with{" "}
           <span role="img" aria-label="Heart emoji">
             ❤️
           </span>
+          (and Next.js)
           <span>
             {" "}
             in

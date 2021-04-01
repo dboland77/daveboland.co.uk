@@ -14,7 +14,9 @@ const Homepage = () => (
     <div className="cover">
       <div className="hello">
         <h1>Hi, I'm Dave</h1>
-        <div>I'm a Javascript developer and data scientist. Welcome to my site. </div>
+        <div>
+          I'm an experienced professional web developer. Welcome to my site.{" "}
+        </div>
         <Link href="/services">
           <a className="view-more">What I do</a>
         </Link>
@@ -29,7 +31,6 @@ const Homepage = () => (
         </Link>
       </div>
     </div>
-  
   </Layout>
 );
 

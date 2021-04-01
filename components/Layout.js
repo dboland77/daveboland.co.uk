@@ -7,7 +7,7 @@ const Layout = (props) => (
     <Head>
       <title>
         {props.title ? `${props.title} | ` : ""}
-        Dave Boland
+        Dave Boland - Freelance Web Designer & Developer For Hire in Sutton
       </title>
       {props.description ? (
         <meta name="description" content={props.description} />
@@ -19,7 +19,6 @@ const Layout = (props) => (
     <div className="content-wrapper">{props.children}</div>
 
     <Footer />
-
   </div>
 );
 
