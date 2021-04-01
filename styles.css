@@ -95,18 +95,17 @@ img {
   background-size: cover;
 }
 .hello {
-  position: absolute;
-  top: 60px;
-  left: 60px;
+  margin: 0 auto;
   background: #fff;
-  padding: 30px;
+  padding: 15%;
 }
 .hello h1 {
   margin: 0 0 10px 0;
 }
 a.view-more {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
+  padding: 5%;
 }
 .latest-work {
   text-align: center;

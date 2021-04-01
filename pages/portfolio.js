@@ -7,9 +7,7 @@ const Portfolio = () => {
 
   for (let i = imageCount; i > 0; i--) {
     images.push(`/portfolio/${i}.png`);
-  
   }
-
   return (
     <Layout title="Portfolio">
       <h1>Portfolio</h1>

@@ -2,40 +2,59 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 
 const Services = () => (
-  <Layout title="Our Services">
-    <h1>Our Services</h1>
+  <Layout title="Web Services">
+    <h1>Services</h1>
     <div className="services">
       <div className="services-list">
         <div className="item">
-          <Image src="/services/weddings.jpg" alt = "Weddings" width={200} height={200}/>
-          <h2>Weddings</h2>
+          <Image
+            src="/services/design.jpg"
+            alt="Web Design"
+            width={400}
+            height={300}
+          />
+          <h2>Web Design</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet rhoncus mi ac porta.
+            I can work with you to design the site of your dreams with the
+            latest blazing-fast technology and design techniques. All of my
+            builds are SEO friendly so google will be optimised for lead
+            conversion.
           </p>
         </div>
         <div className="item">
-          <Image src="/services/portraits.jpg" alt="Portraits" width={200} height={200}/>
-          <h2>Portraits</h2>
+          <Image
+            src="/services/react.jpg"
+            alt="Web Development"
+            width={400}
+            height={300}
+          />
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet rhoncus mi ac porta.
+            I specialise in front-end development using HTML5, CSS3, Javascript
+            and React. I am also an expert back-end developer with 20 years of
+            experience with SQL and Node.js
           </p>
         </div>
         <div className="item">
-          <img src="/services/real-estate.jpg" alt = "Real-Estate"/>
-          <h2>Real Estate</h2>
+          <img src="/services/SEO.jpg" alt="Website Redesign" />
+          <h2>Website Redesign</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet rhoncus mi ac porta.
+            I emphasise speed in my websites. (So does Google search). I build
+            applications and websites that load every page as close to instantly
+            as possible.
           </p>
         </div>
         <div className="item">
-          <Image src="/services/travel.jpg"  alt = "Travel" width={200} height={200}/>
-          <h2>Travel</h2>
+          <Image src="/services/responsive.jpg" alt="Responsive" 
+            width={400}
+            height={300}
+          />
+          <br />
+          <h2>Responsive Design</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet rhoncus mi ac porta.
+            Responsive design is a technique used to build mobile-friendly
+            devices. This ensures that your website or application will have a
+            consistent look and feel across all devices.
           </p>
         </div>
       </div>

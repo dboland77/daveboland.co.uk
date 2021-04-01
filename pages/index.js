@@ -13,24 +13,18 @@ const Homepage = () => (
   <Layout>
     <div className="cover">
       <div className="hello">
-        <h1>Hi, I'm Dave</h1>
+        <h1>Hey, I'm Dave</h1>
         <div>
-          I'm an experienced professional web developer. Welcome to my site.{" "}
+          I'm an experienced professional web developer. <br/>
+          Welcome to my site.{" "}
         </div>
+        <hr/>
         <Link href="/services">
           <a className="view-more">What I do</a>
         </Link>
       </div>
     </div>
-    <div className="latest-work">
-      <h2>Latest Work</h2>
-      <Gallery images={images} />
-      <div className="">
-        <Link href="/portfolio">
-          <a className="view-more">View All</a>
-        </Link>
-      </div>
-    </div>
+
   </Layout>
 );
 
