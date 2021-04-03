@@ -91,7 +91,6 @@ img {
 .cover {
   position: relative;
   min-height: 600px;
-  background: transparent url(/public/cover.jpg) no-repeat center center;
   background-size: cover;
 }
 .hello {
