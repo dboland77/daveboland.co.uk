@@ -12,6 +12,7 @@ const Services = () => (
             alt="Web Design"
             width={400}
             height={300}
+            priority
           />
           <h2>Web Design</h2>
           <p>

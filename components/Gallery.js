@@ -20,6 +20,7 @@ const Gallery = ({ images }) => (
               alt="Portfolio picture"
               width={250}
               height={400}
+              priority
             />
           </a>
         </div>
